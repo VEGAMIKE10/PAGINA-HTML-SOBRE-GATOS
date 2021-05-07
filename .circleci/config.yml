@@ -1,13 +1,144 @@
-# Use the latest 2.1 version of CircleCI pipeline process engine. See: https://circleci.com/docs/2.0/configuration-reference
-version: 2.1
-# Use a package of configuration called an orb.
-orbs:
-  # Declare a dependency on the welcome-orb
-  welcome: circleci/welcome-orb@0.4.1
-# Orchestrate or schedule a set of jobs
-workflows:
-  # Name the workflow "welcome"
-  welcome:
-    # Run the welcome/run job in its own container
-    jobs:
-      - welcome/run
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>pagina html</title>
+    
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+   
+    <h1>LOS GATOS</h1>
+   <hr>
+    <section>
+        <h2>NOMBRE CIENTIFICO: FELIS CATUS</h2>
+    </section>
+    
+    <img src="https://i.pinimg.com/564x/b6/88/05/b6880530ff5d97ebac0d0f692baa5a80.jpg">
+    <hr>
+    <a target="_blank" href="https://es.wikipedia.org/wiki/Felis_silvestris_catus">MAS INFORMACION SOBRE LOS GATOS AQUI</a>
+    <h3>QUE ES UN GATO?</h3>
+    <p>Se trata de un mamífero de contextura pequeña, carnívoro y cuyos rasgos salientes son: cabeza redonda, lengua áspera, patas cortas, uñas importantes, filosas y retráctiles, abundante pelaje y más bien suave, y las pupilas se le dilatan para poder ver mejor a instancias de la oscuridad.</p>
+    <hr>
+    </strong>
+    <H3>CUAL ES SU HISTORIA?</H3>
+   </strong> <p>se basa sobre todo en la percepción que el hombre tiene del pequeño felino. Se cree que la domesticación del gato comenzó entre el 7500 a. C. y el 7000 a. C. La visión que el hombre tiene del gato difiere totalmente de una época a otra siendo desde la antigüedad cuando lo veneraban hasta la Edad media cuando los quemaban en las hogueras, pensando que era un animal diabólico.
+    <strong>
+    <h3>SU ORIGEN</h3>
+    </strong>
+    <p>Los gatos actuales comparten un antepasado común que probablemente esté relacionado con los Aitanis. Estos pequeños carnívoros de los bosques aparecieron hace alrededor de 60 millones de años y tenían la velocidad y la talla de las jinetas actuales, con un cuerpo alargado y una larga cola. Quedan pocos fósiles en el hemisferio norte. El origen de los felinos está mal documentado en el registro fósil ya que los antepasados de los félidos vivían normalmente en zonas tropicales, que no ofrecen buenas condiciones para la fosilización. Las especies desaparecidas consideradas más cercanas al antepasado de los felinos serían el proailurus (pequeño carnívoro europeo y arborícola aparecido hace 40 millones de años) y el pseudaelurus que vivió hace de 8 a 20 millones de años en Europa y en Asia, y de los que se separaron los felinos actuales hace 10,8 millones de años.</p>
+    <hr>
+    <h3>COMO FUE DOMESTICADO?</h3>
+    <p>Los primeros descubrimientos paleontológicos sitúan los primeros focos de domesticación del gato en Egipto hacia el 2000 a.C., pero el descubrimiento en 2004 de los restos de un gato al lado de los restos de un humano en una tumba en Chipre aplaza el inicio de esta relación de 7.500 a 7.000 años a.C. El gato descubierto presenta una morfología muy cercana a la del gato salvaje africano, sin las modificaciones del esqueleto debidas a la domesticación: se trataba de un gato acostumbrado, más que domesticado. La cohabitación de los gatos y los hombres empezó probablemente con la aparición de la agricultura: el almacenaje del cereal atrajo a los ratones y a las ratas, que a su vez atrajeron a los gatos, sus depredadores naturales.</p>
+    <h4>DE QUE SE ALIMENTAN?</h4>
+    <hr>
+    <h5>GATOS SILVESTRES</h5>
+    <p>Un gato, de manera natural, come ratones, pájaros, pequeños roedores, pequeños mamíferos, insectos, reptiles. Sí, pueden mordisquear algunas hojas de hierba aquí o allá, pero es una dieta carnívora.</p>
+    <h5>GATOS DOMESTICOS</h5>
+    <p>prefieren el sabor y la textura de los alimentos húmedos. Los alimentos húmedos resultan muy útiles, pues, comos u presentación es en pequeñas bolsitas y latas, siempre se mantendrán frescos y son muy fáciles de servir.
+        Además, tu gato comerá más de una sola vez y beberá menos agua.</p>
+        <hr>
+<h4>TOP 5 MEJORES GATOS</h4>
+<hr>
+<ol>
+   <strong>
+    <p>1. Ragdoll</p>
+    </strong>
+  <img src=https://www.infobae.com/new-resizer/kIIcprIbzm0LE_wXasEY-zvvzVU=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/ADLTBNVBCVAABEXY5IFSJBXPXQ.jpg>
+  <strong>
+      <p>2. EXOTICO</p>
+      <img src=https://www.infobae.com/new-resizer/0Ee56euh471PfZnhRRlxxXaLT3w=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/CZUUKPRIGNGOZBNW3AB5A5FWDY.jpg>
+  </strong>
+  <strong>
+  <p>3. British Shorthai</p>
+<img src=https://www.infobae.com/new-resizer/4PinG1MJF0423HmqOaPdvuoyjIo=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/HG5AZVPB7VEUPJWQJPDY6EESJY.jpg>
+  </strong>
+  <strong>
+      <p>4. PERSA</p>
+      <img src=https://t2.ea.ltmcdn.com/es/images/2/5/2/nombres_para_gatos_persas_machos_y_hembras_24252_orig.jpg>
+  </strong>
+  <strong>
+  <p>5. MAINE COON</p>
+  <img src=https://www.infobae.com/new-resizer/BdQHv88nD56fB7wm3xbeEetsy4c=/768x512/filters:format(jpg):quality(85)/cloudfront-us-east-1.images.arcpublishing.com/infobae/JWEHUHYP65FDFCTNCF5M6Z4EJI.jpg>
+  </strong>
+</ol>
+<h2>MIS GATOS</h2>
+
+<ul>
+   <strong>
+    <li>LUNA</li>
+    <li>SASI</li>
+    <li>SASHA</li>
+    <li>HAPPY</li>
+    <li>BONITO</li>
+    <li>CAPUCHINA</li>
+    <li>LULU</li>
+    <li>DANNA</li>
+    <li>GOMELA 1</li>
+    <li>GOMELA 2</li>
+    </strong>
+    <table>
+        <thead>
+            <tr>
+               <h3>LISTA</h3>
+                <th>NOMBRE</th>
+                <th>RAZA</th>
+                <th>COLOR</th>
+            </tr>
+        </thead>
+        <tbody>
+          <tr>
+              <td>LUNA</td>
+              <td>CRIOLLA</td>
+              <td>NEGRO</td>
+          </tr>
+          <tr>
+              <td>SASI</td>
+              <td>CRIOLLA</td>
+              <td>BLANCO Y NEGRO</td>
+          </tr>
+          <tr>
+              <td>SASHA</td>
+              <td>CRIOLLA</td>
+              <td>BLANCO Y GRIS</td>
+          </tr>
+          <tr>
+              <td>HAPPY</td>
+              <td>AZUL RUSO</td>
+              <td>GRIS</td>
+          </tr>
+          <tr>
+              <td>BONITO</td>
+              <td>CRIOLLO</td>
+              <td>BLANCO Y NEGRO</td>
+          </tr>
+          <tr>
+              <td>CAPUCHINA</td>
+              <td>SIAMES</td>
+              <td>BLANCO Y CAFE SEMIOSCURO</td>
+        <tr>
+              <td>LULU</td>
+              <td>CRIOLLA</td>
+              <td>BLANCO Y GRIS</td>
+          </tr>
+          <tr>
+              <td>DANNA</td>
+              <td>CRIOLLA</td>
+              <td>BLANCO Y NEGRO</td>
+          </tr>
+          <tr>
+              <td>GOMELA 1</td>
+              <td>CRIOLLA</td>
+              <td>GRIS</td>
+          </tr>
+          <tr>
+              <td>GOMELA 2</td>
+              <td>CRIOLLA</td>
+              <td>GRIS</td>
+          </tr>
+          </tr>
+        </tbody>
+    </table>
+</ul>
+</body>
+</html>
